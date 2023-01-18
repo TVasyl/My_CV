@@ -1,0 +1,137 @@
+
+/* @import url("/css/styles_reset.css"); */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Roboto";
+    background-color: rgb(83, 83, 83);
+}
+
+.contaeiner {
+    display:flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    box-shadow: inherit;
+}
+
+.sidebar {
+    background-color: rgb(41, 41, 41);
+    color: #fff;
+    padding-left: 30px;
+    width: 350px;
+}
+
+.sidebar__item {
+    margin-bottom: 50px;
+}
+
+.sidebar__foto {
+   padding: 30px 30px 30px 0px;
+}
+
+.foto {
+    width: 300px;
+    border-radius: 50%;
+}
+
+.sidebar__title {
+    font-size: 28px;
+}
+
+.sidebar__contact-items {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    list-style: none;
+}
+
+.sidebar span {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.sidebar__contact-items a {
+    color: #fff;
+}
+
+.skils::before {
+    content: "\2022";
+    color: orange;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+}
+
+.sidebar__skils-list{
+    margin-top: 25px;
+}
+
+
+.vertical-line {
+    background-color: #fff;
+    width: 50px;
+    border-right: 3px solid rgb(100, 100, 100);
+    height: 1622px;
+}
+
+
+/* Main */
+.main {
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+}
+
+.main h1 {
+    font-size: 64px;
+}
+
+.main__about {
+    margin-bottom: 30px;
+}
+
+.main__content {
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(107, 107, 107);
+    line-height: 25px;
+    text-align: justify;
+}
+
+.main__experience {
+    line-height: 30px;
+}
+
+.main__title {
+    font-size: 36px;
+}
+
+.main__experience-item {
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+.main__experience-year {
+    font-weight: 1000;
+    font-size: 20px;
+}
+
+.main__experience-year::before {
+    content: "\2022";
+    /* content: url("/img/2916345_arrow_essential_interface_square_ui_icon.svg"); */
+
+    color: rgb(151, 151, 151);
+    font-weight: bold;
+    font-size: 25px;
+    display: inline-block;
+    width: 1em;
+}
+
+.main__experience-job {
+    color: rgb(78, 78, 78);
+}
+
+.main__experience-position {
+    font-size: 24px;
+}
